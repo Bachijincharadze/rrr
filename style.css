@@ -1,0 +1,245 @@
+
+
+div{
+    margin: 10px;
+    font-size: 20px;
+    height: 80px;
+}
+
+Body{
+    background-color:darkslategrey;
+    animation: body 3s forwards;
+}
+
+@keyframes body {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;        
+    }
+    
+}
+
+#header{
+    height: 80px;
+    font-size: 40px;
+    text-align: center;
+    background-color: darkgrey;
+    animation: header 3s forwards;
+}
+
+@keyframes header {
+     0%{
+        opacity: 0;
+     } 
+     100%{
+        opacity: 1;
+     }
+     
+    
+}
+
+h5{
+    padding: 15px;
+    letter-spacing: 24px;
+    animation: LetterAnimation 3s forwards;
+    
+}
+
+@keyframes LetterAnimation {
+    0%{
+        letter-spacing: 12px;
+        opacity: 0;
+    }
+
+    100%{
+        letter-spacing: 2px;
+        opacity: 1;
+    }
+    
+}
+
+
+
+
+#leftSidebar{
+    background-color: darkgrey;
+    float: left;
+    width: 130px;
+    height: 600px;
+    background-image: url(img/IMG_0934.jpg);
+    background-position: center;
+    animation: opacity 3s forwards;
+}
+
+@keyframes opacity {
+     0%{
+        opacity: 0;
+     }
+     100%{
+        opacity: 1;
+     }
+    
+}
+
+#rightSidebar{
+    background-color: darkgrey;
+    float: right;
+    width: 130px;
+    height: 600px;
+    background-image: url(img/IMG_0937.jpg);
+    background-position: center;
+    animation: opacity2 2s forwards;
+}
+
+@keyframes opacity2 {
+     0%{
+        opacity: 0;
+     }
+     100%{
+        opacity: 1;
+     }
+    
+}
+
+#main{
+    background-color: rgb(87, 82, 95);
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 620px;  
+    height: fixed;  
+    display: grid;
+    text-align: center;
+    font-size: 18px;
+    animation: opacityMain 3s forwards;
+}
+
+@keyframes opacityMain {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+
+     
+}
+
+
+     
+    
+
+.container-img{
+    display: flex;
+    align-items: center;
+    margin-left: 480px;
+    gap: 20px;
+}
+
+.image-1{
+    background-color: rgb(87, 82, 95);
+    height: 50px;
+    width: 50px;
+    transition: all 0.5s ease;
+}
+
+.image-1:hover{
+    transform: scale(1.0);
+    background-color: darkslategrey;
+    border-radius: 20%;
+    height: 52px;
+    width: 50px;
+}
+
+.image-2{
+    background-color: rgb(87, 82, 95);
+    height: 50px;
+    width: 50px;
+    transition: all 0.5s ease;
+}
+
+.image-2:hover{
+    transform: scale(1.0);
+    background-color: darkslategrey;
+    border-radius: 20%;
+    height: 52px;
+}
+
+.image-3{
+    background-color: rgb(87, 82, 95);
+    height: 50px;
+    width: 50px;
+    transition: all 0.5s ease;
+}
+
+.image-3:hover{
+    transform: scale(1.0);
+    background-color: darkslategrey;
+    border-radius: 20%;
+    height: 52px;
+}
+
+h3{
+    color: rgb(154, 169, 160);
+}
+
+button{
+    background-color: darkolivegreen;
+    height: 20px;
+    width: 90px;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    width: 95px;
+    height: 20px;
+    background-color: cadetblue;
+}
+
+#footer{
+    background-color: rgb(53, 79, 76);
+    margin-top: 180px
+}
+
+p{
+    float: left;
+    margin-left: 40px;
+    margin-top: -90px;
+
+}
+
+.gmail{
+    margin-top: -75px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.phone{
+    width: 22px;
+    height: 22px;
+    transition: all 0.5s ease;
+}
+
+.phone:hover{
+    transform: scale(1.0);
+    background-color: darkgray;
+    border-radius: 15%;
+}
+
+.mail{
+    width: 22px;
+    height: 22px;
+    transition: all 0.5s ease;
+}
+
+.mail:hover{
+    transform: scale(1.0);
+    background-color: darkgray;
+    border-radius: 15%;
+}
+
